@@ -8,10 +8,10 @@
         WindowStartupLocation="CenterScreen"
         ResizeMode="CanMinimize"
         Title="ООО Стройматериалы: Авторизация" 
-        MinHeight="400" 
-        MinWidth="500"
+        MinHeight="350" 
+        MinWidth="400"
         Width="250" 
-        Height="250"
+        Height="300"
      Icon="D:\IS-31\StroiMater\Общие ресурсы\icon.ico">
     <Grid Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center">
         <Grid.RowDefinitions>
@@ -38,6 +38,9 @@
 
         <Button Grid.Row="3" Background="#00FF7F" Height="30" Width="100" HorizontalAlignment="Right" Margin="10" x:Name="btnSignIn" Click="btnSignIn_Click"
                 Content="{Binding ButtonSignIn}"/>
+        <StackPanel Grid.Row="4" Margin="10">
+            <Button Content="Войти как гость" Background="#00FF7F" Height="30" Width="100" HorizontalAlignment="Right" Click="btnGuest_Click"/>
+        </StackPanel>
 
     </Grid>
 </Window>

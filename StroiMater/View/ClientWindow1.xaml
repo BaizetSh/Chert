@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:StroiMater.View"
         mc:Ignorable="d"
        WindowStartupLocation="CenterScreen"
-        Title="ООО Стройматериалы: Клиентское окно" Height="450" Width="800"
+        Title="ООО Стройматериалы: Клиентское окно"
+        Height="450" 
+        Width="1000"
+        MinHeight="450"
+        MinWidth="1000"
         Icon="D:\IS-31\StroiMater\Общие ресурсы\icon.ico">
     <Grid>
         <DataGrid ItemsSource="{Binding Products}" AutoGenerateColumns="False">

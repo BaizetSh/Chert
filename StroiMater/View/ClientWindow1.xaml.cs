@@ -23,7 +23,7 @@ namespace StroiMater.View
         public ClientWindow1()
         {
             InitializeComponent();
-            this.DataContext = new ClientViewModel();
+            DataContext = new ClientViewModel();
         }
     }
 }

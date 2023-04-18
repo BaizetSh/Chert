@@ -35,14 +35,26 @@ namespace StroiMater
             var user = await (DataContext as AuthorizationViewModel).ValidateUserLoginAndPassword();
             if (user == 1)
             {
-                new ClientWindow1().Show();
+                new AdminWindow1().Show();
                 this.Hide();
             }
             else
             {
                 MessageBox.Show("Неверный логин или пароль", "Ошибка авторизации", MessageBoxButton.OK, MessageBoxImage.Error);
+                Captcha guestWindow = new Captcha();
+                guestWindow.Show();
+
             }
 
+        }
+        private void btnGuest_Click(object sender, RoutedEventArgs e)
+        {
+            // Открыть окно приложения в режиме гостя
+            AdminWindow1 guestWindow = new AdminWindow1();
+            guestWindow.Show();
+
+            // Закрыть окно входа
+            this.Close();
         }
     }
 }

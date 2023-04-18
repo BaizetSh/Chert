@@ -25,3 +25,5 @@ D:\IS-31\StroiMater\obj\Debug\StroiMater_Content.g.cs
 D:\IS-31\StroiMater\obj\Debug\View\AdminWindow1.baml
 D:\IS-31\StroiMater\obj\Debug\View\ClientWindow1.baml
 D:\IS-31\StroiMater\obj\Debug\StroiMater.csproj.CopyComplete
+D:\IS-31\StroiMater\obj\Debug\View\Captcha.g.cs
+D:\IS-31\StroiMater\obj\Debug\View\Captcha.baml
